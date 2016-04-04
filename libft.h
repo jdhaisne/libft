@@ -81,5 +81,6 @@ void				ft_striteri(char *s, void (f)(unsigned int, char *));
 void				ft_striter(char *s, void(*f)(char *));
 int					ft_strequ(char const *s1, char const *s2);
 void				ft_strclr(char *s);
+t_list				*ft_lstdup(t_list *start);
 
 #endif
