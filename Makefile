@@ -54,6 +54,8 @@ SRC = ft_atoi.c \
 	  ft_strjoin.c \
 	  ft_strlcat.c \
 	  ft_strlen.c \
+	  ft_strlenc.c \
+	  ft_strlenrc.c \
 	  ft_strmap.c \
 	  ft_strmapi.c \
 	  ft_strncat.c \
@@ -69,7 +71,9 @@ SRC = ft_atoi.c \
 	  ft_strtrim.c \
 	  ft_tolower.c \
 	  ft_toupper.c \
-	  ft_lstdup.c
+	  ft_envar.c \
+	  ft_lstdup.c \
+	  ft_stradd.c
 OBJ = ft_*.o \
 
 all: $(NAME)

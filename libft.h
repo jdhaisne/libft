@@ -38,6 +38,8 @@ void				ft_putnbr(int n);
 void				ft_putstr(const char *s);
 char				*ft_strdup(const char *s);
 size_t				ft_strlen(const char *s);
+size_t				ft_strlenc(const char *s, char c);
+size_t				ft_strlenrc(const char *s, char c);
 int					ft_tolower(int c);
 int					ft_toupper(int c);
 char				*ft_strcpy(char *dest, const char *src);
@@ -82,5 +84,7 @@ void				ft_striter(char *s, void(*f)(char *));
 int					ft_strequ(char const *s1, char const *s2);
 void				ft_strclr(char *s);
 t_list				*ft_lstdup(t_list *start);
+char				*ft_envar(const char *name, t_list *env_l);
+char				*ft_stradd(char *s1, char *s2);
 
 #endif
